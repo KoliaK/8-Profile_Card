@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/*font-family: 'Kumbh Sans', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: -90% -500px, 170% 400px;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 90%;
+    font-size: 18px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 97%;
+    max-width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    background-image: url(images/bg-pattern-card.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.text-box{
+    color: hsl(229, 23%, 23%);
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100%;
+}
+
+.name-age{
+    padding: 0rem 0rem 0.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.name-age h1, h2{
+    padding: 2rem 0.3rem 0;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.city{
+    padding: 0rem 0rem 1.5rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.profile-picture{
+    margin-top: 5.5rem;
+    margin-bottom: -1rem;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: hsl(0, 0%, 100%);
+}
+
+hr{
+    border-radius: 100%; /*awesome way to put a fading effect to the horizontal line!*/
+    color: hsla(0, 0%, 59%, 0.253);    
+}
+
+.stats{
+    margin: 1.5rem 0.5rem 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+h3{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: hsl(227, 10%, 46%);
+}
